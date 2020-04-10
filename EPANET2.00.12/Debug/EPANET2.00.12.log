@@ -1,0 +1,37 @@
+﻿  epanet.c
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\epanet.c(233,1): warning C4005: 'DEBUGS': redefinición de macro
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\epanet.c(225): message : vea la definición anterior de 'DEBUGS'
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\epanet.c(234,1): warning C4005: 'DEBUGI': redefinición de macro
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\epanet.c(226): message : vea la definición anterior de 'DEBUGI'
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\epanet.c(235,1): warning C4005: 'DEBUGF': redefinición de macro
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\epanet.c(227): message : vea la definición anterior de 'DEBUGF'
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\epanet.c(236,1): warning C4005: 'DEBUGL': redefinición de macro
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\epanet.c(228): message : vea la definición anterior de 'DEBUGL'
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\epanet.c(237,1): warning C4005: 'DEBUG_ARRAYF': redefinición de macro
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\epanet.c(229): message : vea la definición anterior de 'DEBUG_ARRAYF'
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\epanet.c(3204,1): fatal error C1010: final de archivo inesperado al buscar la directiva de encabezado precompilado. Compruebe si olvidó agregar '#include "pch.h"' al código fuente?
+  hash.c
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\hash.c(111,1): fatal error C1010: final de archivo inesperado al buscar la directiva de encabezado precompilado. Compruebe si olvidó agregar '#include "pch.h"' al código fuente?
+  hydraul.c
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\hydraul.c(2487,1): fatal error C1010: final de archivo inesperado al buscar la directiva de encabezado precompilado. Compruebe si olvidó agregar '#include "pch.h"' al código fuente?
+  inpfile.c
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\inpfile.c(622,1): fatal error C1010: final de archivo inesperado al buscar la directiva de encabezado precompilado. Compruebe si olvidó agregar '#include "pch.h"' al código fuente?
+  input1.c
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\input1.c(640,1): fatal error C1010: final de archivo inesperado al buscar la directiva de encabezado precompilado. Compruebe si olvidó agregar '#include "pch.h"' al código fuente?
+  input2.c
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\input2.c(967,1): fatal error C1010: final de archivo inesperado al buscar la directiva de encabezado precompilado. Compruebe si olvidó agregar '#include "pch.h"' al código fuente?
+  input3.c
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\input3.c(1864,1): fatal error C1010: final de archivo inesperado al buscar la directiva de encabezado precompilado. Compruebe si olvidó agregar '#include "pch.h"' al código fuente?
+  mempool.c
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\mempool.c(205,1): fatal error C1010: final de archivo inesperado al buscar la directiva de encabezado precompilado. Compruebe si olvidó agregar '#include "pch.h"' al código fuente?
+  output.c
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\output.c(698,1): fatal error C1010: final de archivo inesperado al buscar la directiva de encabezado precompilado. Compruebe si olvidó agregar '#include "pch.h"' al código fuente?
+  quality.c
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\quality.c(1653,1): fatal error C1010: final de archivo inesperado al buscar la directiva de encabezado precompilado. Compruebe si olvidó agregar '#include "pch.h"' al código fuente?
+  report.c
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\report.c(1223,1): fatal error C1010: final de archivo inesperado al buscar la directiva de encabezado precompilado. Compruebe si olvidó agregar '#include "pch.h"' al código fuente?
+  rules.c
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\rules.c(968,1): fatal error C1010: final de archivo inesperado al buscar la directiva de encabezado precompilado. Compruebe si olvidó agregar '#include "pch.h"' al código fuente?
+  smatrix.c
+C:\Users\gsanh\source\repos\EPANET2.00.12\EPANET2.00.12\epanet2\smatrix.c(751,1): fatal error C1010: final de archivo inesperado al buscar la directiva de encabezado precompilado. Compruebe si olvidó agregar '#include "pch.h"' al código fuente?
+  Generando código...
