@@ -16,6 +16,8 @@ Configuración para poder compilar:
 
 ![](assets/7.png)
 
+CallingApp es un proyecto para probar la dll en visual studio.
+
 ## Nota
 La función EnInit(saveFlag) cuando su parametro es 1 presenta un error al ser compilada por visual studio. Esto se debe a que la funcion tmpnam(), la cual permite obtener un nombre para un archivo temporal, obtiene un path a C:\Users\<username>\AppData\Local\Temp\<nombre_archivo_temporal> en dicho IDE. Puesto que EnsolveH llama internamente a EnInit() esta también se ve afectada. Es por ello que para compilar correctamente el archivo final despues de realizar las pruebas es mejor usar DEV-C.
 
