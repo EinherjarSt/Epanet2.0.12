@@ -3,21 +3,52 @@
 
 #include <stdio.h>
 #include <errno.h>
-
 #include "epanet2.h"
-int main()
-{
-    /* Open the EPANET toolkit & hydraulics solver */
-    ENopen("resource/hanoi-Frankenstein-optimized.inp", "resource/report.rpt", "");
+void stepbystep() {
+    long  t = 0;
+    long tstep = 1;
+    ENopenH();
+    /* Iterate over all demands */
+    ENinitH(0);
+    do
+    {
+        /* Set nodal demand, initialize hydraulics, make a */
+        /* single period run, and retrieve pressure */
+        ENrunH(&t);
+        ENnextH(&tstep);
+    } while (tstep > 0);
+
+    /* Close hydraulics solver & toolkit */
+    ENcloseH();
+}
+
+void runAll() {
     int err = ENsolveH();
+    ENsavehydfile("resource/result");
     if (err) {
         char txt[100];
         ENgeterror(err, txt, 100);
         perror(txt);
     }
+}
+
+int main()
+{
+    /* Open the EPANET toolkit & hydraulics solver */
+    ENopen("resource/hanoi-Frankenstein-optimized.INP", "resource/report.rpt", "jajaja");
+    //stepbystep();
+    //runAll();
     ENclose();
+
+    char txt[100];
+    //const char* name = tmpnam(NULL);
+    //printf(name);
+    tmpnam(txt);
+    printf(txt);
+
     return 0;
 }
+
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
 // Depurar programa: F5 o menú Depurar > Iniciar depuración
